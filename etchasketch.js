@@ -29,7 +29,6 @@ function createDivGrid(dim) {
             el.classList.add(color)
             el.classList.add('cell')
         }
-        // console.log(el)
     }
     document.addEventListener('mouseover', turnCellColor)
     header.removeChild(startButton)
