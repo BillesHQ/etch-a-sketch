@@ -1,0 +1,86 @@
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    height: 25px;
+    width: 25px;
+    border: 1px solid;
+    flex-shrink: 0;
+    transition: background-color 150ms;
+}
+
+.red {
+    background-color: red;
+}
+
+.gold {
+    background-color: gold;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.magenta {
+    background-color: magenta;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.cyan {
+    background-color: cyan;
+}
+
+.burlywood {
+    background-color: burlywood;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.brightredorange {
+    background-color: #F75E25;
+}
+
+.turqouise {
+    background-color: #1E5945;
+}
+
+.redviolet {
+    background-color: #922B3E;
+}
+
+.leafgreen {
+    background-color: #2D572C;
+}
+
+.white {
+    background-color: white;
+}
+
+
