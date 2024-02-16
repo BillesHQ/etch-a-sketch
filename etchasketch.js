@@ -26,7 +26,7 @@ function createDivGrid(dim) {
         if (el.classList.contains('white') && el.classList.contains('cell')) {
             el.classList.remove('white')
             const color = colorPicker();
-            el.classList.add(color)
+            el.classList.add('angelina')
             el.classList.add('cell')
         }
     }
