@@ -20,6 +20,7 @@ function createDivGrid(dim) {
     }
 
     const turnCellColor =  function (event) {
+        console.log(event)
         const x = event.clientX;
         const y = event.clientY;
         const el = document.elementFromPoint(x, y)
